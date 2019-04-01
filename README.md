@@ -1,6 +1,8 @@
 Start
 
 node init.js
+
 or
-creen -mdS node node init.js
+
+screen -mdS node node init.js
 
