@@ -1,7 +1,13 @@
 {
+<<<<<<< HEAD
     "name": "node-open-mining-portal",
     "version": "0.0.4",
     "description": "An extremely efficient, highly scalable, all-in-one, easy to setup cryptocurrency mining pool",
+=======
+    "name": "stratum-pool",
+    "version": "0.1.9",
+    "description": "High performance Stratum poolserver in Node.js",
+>>>>>>> 1f35bb34c4216c2d1c60ff1a6545a1dfe87f0058
     "keywords": [
         "stratum",
         "mining",
@@ -12,9 +18,15 @@
         "litecoin",
         "scrypt"
     ],
+<<<<<<< HEAD
     "homepage": "https://github.com/rascal71/node-open-mining-portal",
     "bugs": {
         "url": "https://github.com/rascal71/node-open-mining-portal/issues"
+=======
+    "homepage": "https://github.com/zone117x/node-stratum-pool",
+    "bugs": {
+        "url": "https://github.com/zone117x/node-stratum-pool/issues"
+>>>>>>> 1f35bb34c4216c2d1c60ff1a6545a1dfe87f0058
     },
     "license": "GPL-2.0",
     "author": "Matthew Little",
@@ -22,6 +34,7 @@
         "vekexasia",
         "TheSeven"
     ],
+<<<<<<< HEAD
     "main": "init.js",
     "bin": {
         "block-notify": "./scripts/blockNotify.js"
@@ -47,6 +60,18 @@
         "nonce": "*",
         "bignum": "*",
         "extend": "*"
+=======
+    "main": "lib/index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zone117x/node-stratum-pool.git"
+    },
+    "dependencies": {
+        "multi-hashing": "git://github.com/zone117x/node-multi-hashing.git",
+        "bignum": "0.12.5",
+        "base58-native": "*",
+        "async": "*"
+>>>>>>> 1f35bb34c4216c2d1c60ff1a6545a1dfe87f0058
     },
     "engines": {
         "node": ">=0.10"
